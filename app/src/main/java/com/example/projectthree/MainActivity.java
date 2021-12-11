@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     public Button btn;
+    public Button btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,19 @@ public class MainActivity extends AppCompatActivity {
                 openSecondActivity();
             }
         });
+
+        btn2 = findViewById(R.id.button2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openThirdActivity();
+            }
+        });
+    }
+
+    private void openThirdActivity() {
+        Intent intent2 = new Intent(this, SignUpActivity.class);
+        startActivity(intent2);
     }
 
     private void openSecondActivity() {
