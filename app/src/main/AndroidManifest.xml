@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectThree">
         <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainScreenActivity"
             android:exported="false" />
         <activity
