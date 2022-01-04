@@ -6,4 +6,4 @@
 
 # Project Description:
 
-- This mobile applicaton serves to providing the youth with the resources required to start out on learning how to code using various methods.
+- This mobile applicaton serves to provide the youth with the resources required to start out on learning how to code using various methods.
